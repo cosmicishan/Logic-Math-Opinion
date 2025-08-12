@@ -21,7 +21,7 @@ git clone <your-repo-url>
 
 2. Install dependencies:
 ```bash
-yb sync
+uv sync
 ```
 
 3. (Optional) Set up Gemini API:
@@ -83,3 +83,8 @@ def _classify_with_openai(self, question: str) -> ClassificationResult:
 - **Math**: "What is 25 + 17?" → Calculates and returns "42"
 - **Opinion**: "What do you think about AI?" → Acknowledges subjectivity
 - **Factual**: "What is the capital of France?" → Suggests reliable sources
+
+##Demo 
+
+<img width="1479" height="656" alt="Screenshot from 2025-08-13 04-07-23" src="https://github.com/user-attachments/assets/aa6a2405-89f2-4ae4-b032-6a188429cf62" />
+
